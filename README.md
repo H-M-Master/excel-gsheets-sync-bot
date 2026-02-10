@@ -43,7 +43,7 @@ For first-time use or when changing Google accounts, please complete the followi
 4. The file will be downloaded automatically. **Rename it to `credentials.json`** and place it in the software root directory.
 
 ### Step 4: Authorize the Sheet
-1. Open `credentials.json` with Notepad, copy the email address after "client_email".
+1. Open `bodhicardsynccredentials.json` with Notepad, copy the email address after "client_email".
 2. Open your **Google Sheet (Master)**.
 3. Click the **Share** button in the upper right.
 4. Paste the service account email, set permission to **Editor**, and send.
@@ -169,7 +169,7 @@ For batch deployment or advanced customization, you can edit `config.json` in th
 
 ```json
 {
-  "JsonKeyPath": "BodhiLoveBot_cardautosync-d7c669ef36ca.json", // Key file name
+  "JsonKeyPath": "bodhicardsynccredentials.json", // Key file name
   "SpreadsheetId": "Your_Google_Sheet_ID_here", // Google Sheet ID
   "TargetSheetName": "Master", // Target sheet name
   "WatchDogFolder": "WatchDog", // Watch folder
@@ -267,7 +267,7 @@ MySheetsApp 是一款 Windows 桌面工具，专为批量导入和同步 Excel �
 4.  文件会自动下载。**请将其重命名为 `credentials.json`**，并放入软件的根目录下。
 
 ### 步骤 4：给表格授权
-1.  用记事本打开 `credentials.json`，复制 `"client_email"` 后面引号里的邮箱地址。
+1.  用记事本打开 `bodhicardsynccredentials.json`，复制 `"client_email"` 后面引号里的邮箱地址。
 2.  打开您的 **Google Sheet (Master表)**。
 3.  点击右上角 **Share (共享)** 按钮。
 4.  粘贴机器人邮箱，权限设为 **Editor**，点击发送。
@@ -394,7 +394,7 @@ MySheetsApp 是一款 Windows 桌面工具，专为批量导入和同步 Excel �
 
 ```json
 {
-  "JsonKeyPath": "BodhiLoveBot_cardautosync-d7c669ef36ca.json", // 密钥文件名
+  "JsonKeyPath": "bodhicardsynccredentials.json", // 密钥文件名
   "SpreadsheetId": "你的_Google_Sheet_ID_粘贴在这里", // Google 表格ID
   "TargetSheetName": "Master", // 目标表名
   "WatchDogFolder": "WatchDog", // 监控文件夹
@@ -444,7 +444,7 @@ A：右键点击系统托盘图标，选择“退出”即可彻底关闭程序�
 * **重复 (暂)**：姓名一致但有一方缺邮箱，建议人工核查。
 
 **Q7: 我想换一个 Google 表格怎么办？**
-**A:** 只需修改 appsettings.json 里的 SpreadsheetId，无需改代码。
+**A:** 只需修改 config.json 里的 SpreadsheetId，无需改代码。
 
 ---
 
