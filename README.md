@@ -40,7 +40,7 @@ For first-time use or when changing Google accounts, please complete the followi
 1. In the Credentials list, click the account email you just created (like `bot-user@...iam.gserviceaccount.com`).
 2. Go to the "KEYS" tab, click "ADD KEY" -> "Create new key".
 3. Choose **JSON** type, click Create.
-4. The file will be downloaded automatically. **Rename it to `credentials.json`** and place it in the software root directory.
+4. The file will be downloaded automatically. **Rename it to `bodhicardsynccredentials.json`** and place it in the software root directory.
 
 ### Step 4: Authorize the Sheet
 1. Open `bodhicardsynccredentials.json` with Notepad, copy the email address after "client_email".
@@ -264,7 +264,7 @@ MySheetsApp 是一款 Windows 桌面工具，专为批量导入和同步 Excel �
 1.  在 Credentials 列表中，点击刚才创建的账号邮箱（类似 `bot-user@...iam.gserviceaccount.com`）。
 2.  进入 "KEYS" 选项卡，点击 "ADD KEY" -> "Create new key"。
 3.  选择 **JSON** 类型，点击 Create。
-4.  文件会自动下载。**请将其重命名为 `credentials.json`**，并放入软件的根目录下。
+4.  文件会自动下载。**请将其重命名为 `bodhicardsynccredentials.json`**，并放入软件的根目录下。
 
 ### 步骤 4：给表格授权
 1.  用记事本打开 `bodhicardsynccredentials.json`，复制 `"client_email"` 后面引号里的邮箱地址。
